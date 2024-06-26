@@ -1,0 +1,115 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}   
+    
+body{
+   background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d9ef916-0d2a-4096-9dba-fab980341540/ddlj9td-cff79788-be8a-4660-9507-e96ef0859e41.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkOWVmOTE2LTBkMmEtNDA5Ni05ZGJhLWZhYjk4MDM0MTU0MFwvZGRsajl0ZC1jZmY3OTc4OC1iZThhLTQ2NjAtOTUwNy1lOTZlZjA4NTllNDEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9A4AevZ1agVAJ-vjdMcx0r0ojyeYgroxekKvbylZiA0);
+    place-items: center;
+    display: grid;
+
+}   
+    
+img{
+width: 8rem;
+height: 7.3rem;
+display: flex;
+align-items: center;
+border-radius: 10px;
+top: 12rem;
+position: absolute;
+}
+
+.pokemon_data{
+    font-weight: 600;
+    color: #050505;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 55%;
+    left: 24%;
+    color: #585a5c94;
+    
+}
+
+.pokemon_name{
+    color: #3a444d;
+    font-family: 'Trebuchet MS';
+   
+
+
+}
+
+.buttons{
+
+    display: flex;
+    gap: 1.25rem;
+    position: absolute;
+    bottom: 10%;
+    width: 13rem;
+    height: 2.3rem;
+
+}
+
+form{
+width: 65%;
+position: absolute;
+bottom: 20%;
+left: 17%;
+
+}
+
+.button{
+width: 50%;
+padding: 4%;
+border-radius:  5px;
+border: 2px solid #000;
+font-size: 1rem;
+font-weight: 600;
+background-color: #ffffff;
+box-shadow: -3px 3px 3px #161515a1;
+cursor: pointer;
+
+}
+
+.button:active{
+    font-size: .9rem;
+}
+
+
+input{
+   
+    right: 7rem;
+    width: 100%;
+    padding: 2%;
+    outline: none;
+    border-radius:5px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    box-shadow: -3px 3px #918b8b, -4px 6px #333;
+    
+}
+
+::placeholder{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+   color: #585555;
+}
+
+
+main{
+    background: url(images/pokedex.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 24rem; 
+    height: 39rem;
+    box-shadow: 3px 3px 3px  #03030394;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+
+
