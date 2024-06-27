@@ -1,0 +1,139 @@
+/* RESET GERAL */
+* {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    /* color: #323232; */
+    border: none;
+}
+
+body {
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/7a/b4/8f/7ab48fddd5381e4dfb46877da892c2ce.jpg") center no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+
+}
+
+input:focus {
+    outline: none;   
+}
+
+
+
+/* CONTAINER LOGIN */
+#login-container {
+    background-color: transparent;
+    width: 25rem;
+    padding: 1.25rem 1.8rem;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    backdrop-filter: blur(55px);
+    text-align: center;
+}
+
+/* LABEL, INPUT */
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    
+}
+
+input {
+    border-bottom: 1px solid #fff;
+    padding: 2px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #B272C6;  
+}
+
+#forgot-pass {
+    display: block;
+    text-align: right;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {  
+    color: #B271CB;
+}
+
+
+input[type="submit"] {
+    background: #FD927E;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+    transition: width 1.0s;
+    margin: 1.8rem auto 0;
+}
+
+input[type="submit"]:hover {
+    background: #ad6457e3;
+    width: 60%;
+}
+
+/* SOCIAL CONTAINER */
+#social-container, #social-container p {
+    color: #323232;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+#social-container i {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#social-container a {
+    color: transparent;
+}
+
+.fa-facebook-f {
+    background: #0866FF;    
+}
+
+.fa-linkedin {
+    background: #0065C6;
+}
+
+.fa-instagram {
+   background: linear-gradient(to bottom,#4D52D8, #8239C0, #B11FAA, #DC0D99, #FE3F5C, #FE653A, #FE6E22, #FEC054, #FEDA73); 
+}
+
+.fa-whatsapp {
+    background: linear-gradient(to bottom, #41C452, #2DB63F);
+}
+
+/* REGISTER CONTAINER */
+#register-container p {
+    margin-bottom: .8rem;
+    color: #323232;
+}
+
